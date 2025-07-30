@@ -2,12 +2,13 @@
 :root {
   /* Light theme colors */
   --bg-primary: #ffffff;
-  --bg-secondary: #f8f9fa;
-  --text-primary: #282c34;
-  --text-secondary: #61dafb;
-  --border-color: #e9ecef;
-  --button-bg: #007bff;
-  --button-text: #ffffff;
+  --bg-secondary: #f6f8fa;
+  --text-primary: #222;
+  --text-secondary: #424242;
+  --border-color: #e4e8f3;
+  --button-bg: #1976d2;
+  --button-text: #fff;
+  --accent: #ffb300;
 }
 
 [data-theme="dark"] {
