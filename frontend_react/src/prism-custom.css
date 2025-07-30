@@ -1,0 +1,69 @@
+:root {
+  --primary: #1976d2;
+  --secondary: #424242;
+  --accent: #ffb300;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #8e99a4;
+  font-style: italic;
+}
+.token.punctuation { color: var(--secondary); }
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: var(--accent);
+}
+.token.boolean,
+.token.number {
+  color: #0288d1;
+}
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #43a047;
+}
+.token.operator,
+.token.entity,
+.token.url,
+.token.variable {
+  color: var(--primary);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+  color: var(--primary);
+}
+
+.token.keyword {
+  color: #c2185b;
+}
+
+.token.regex,
+.token.important {
+  color: #e65100;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+
+.code-editor,
+.react-simple-code-editor {
+  background: transparent !important;
+  font-size: 1em;
+}
